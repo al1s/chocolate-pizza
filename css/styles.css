@@ -150,15 +150,17 @@ html {
 }
 
 .mainList {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  box-shadow: 0 6px 2px -2px gray;
-  background-image: url(https://github.com/ercain03/chocolate-pizza/blob/master/images/list-bg.png?raw=true);
-  margin-bottom: 30px;
-  font-family: "Patrick Hand", cursive;
-  font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 0 6px 2px -2px gray;
+    background-image: url(https://github.com/ercain03/chocolate-pizza/blob/master/images/list-bg.png?raw=true);
+    margin-bottom: 30px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 400;
+    height: 249px;
+    padding-top: 39px;
 }
 
 .mainList ul {
@@ -170,8 +172,9 @@ html {
 }
 
 span {
-  position: relative;
-  left: 21px;
+    position: relative;
+    left: 21px;
+    top: 6px;
 }
 
 .mainPersonDisplay {
@@ -201,9 +204,6 @@ button {
 .mainPersonDisplay img {
   float: left;
   margin-right: 10px;
-}
-
-.mainFooter {
 }
 
 hr {
