@@ -1,31 +1,156 @@
+body {
+  font-size: 1rem;
+  margin: 0 auto;
+  width: 72.1%;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.logo {
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: left center;
+  position: relative;
+  min-width: 48%;
+  min-height: 4em;
+  top: 1.5em;
+}
+
+.logo__text {
+  font-family: "Yellowtail", cursive;
+  font-size: 2.4em;
+  position: absolute;
+  left: 1.3em;
+  top: 0.1em;
+}
+
+.slogan {
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  position: absolute;
+  left: 5.2em;
+  top: 4.6em;
+}
+
+.social__wrapper {
+  display: flex;
+  position: relative;
+  min-width: 48%;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 4em;
+  top: 1.5em;
+}
+.social {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 0 0 auto;
+  height: 1.4em;
+  width: 1.4em;
+  margin-right: 0.1em;
+}
+
+.social__facebook {
+  background-image: url("../img/fb-icon.png");
+}
+
+.social__twitter {
+  background-image: url("../img/twit-icon.png");
+}
+.social__googleplus {
+  background-image: url("../img/gp-icon.png");
+}
+.social__instagram {
+  background-image: url("../img/insta-icon.png");
+}
+.social__flicr {
+  background-image: url("../img/flic-icon.png");
+}
+.social__pintrest {
+  background-image: url("../img/pint-icon.png");
+}
+.social__rss {
+  background-image: url("../img/rss-icon.png");
+  margin-left: 0.9em;
+}
+.social__email {
+  background-image: url("../img/mail-icon.png");
+}
+
+.main {
+  margin-top: 7em;
+}
+
+.main__header {
+  font-family: "Abel", sans-serif;
+  font-size: 2.7em;
+  font-weight: 900;
+  margin: 0;
+  line-height: 1.2em;
+}
+
+.header__attributes {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5em;
+}
+
+.main__date {
+  flex: 0 0 auto;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+}
+
+.btn__print {
+  flex: 0 0 auto;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.btn__print:before {
+  content: "";
+  background-image: url("../img/print-icon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  right: 2.4em;
+}
+
+.main__image {
+}
+
+.main__text {
+  font-size: 1.3em;
+  margin-bottom: 1.2em;
+}
+
 html {
-    box-sizing: border-box;
-    height: 100%;
+  box-sizing: border-box;
+  height: 100%;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
-
-body {
-    width: 60%;
-    margin: 0 auto;
-}
-
-.mainHeader {}
-
-.mainImage {}
-
-.mainText {}
 
 .mainList {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    ;
+    box-shadow: 0 6px 2px -2px gray;
     background-image: url(https://github.com/ercain03/chocolate-pizza/blob/master/images/list-bg.png?raw=true);
     margin-bottom: 30px;
     font-family: 'Patrick Hand', cursive;
@@ -38,6 +163,11 @@ body {
     padding: 0px;
     margin: 0;
     float: left;
+}
+
+span {
+    position: relative;
+    left: 21px;
 }
 
 .mainPersonDisplay {
@@ -93,3 +223,4 @@ footer img {
 footer h6 {
     margin: 0px auto;
 }
+
