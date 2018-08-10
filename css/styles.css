@@ -155,6 +155,8 @@ html {
     margin-bottom: 30px;
     font-family: 'Patrick Hand', cursive;
     font-weight: 400;
+    height: 249px;
+    padding-top: 39px;
 }
 
 .mainList ul {
@@ -168,6 +170,7 @@ html {
 span {
     position: relative;
     left: 21px;
+    top: 6px;
 }
 
 .mainPersonDisplay {
@@ -199,7 +202,6 @@ button {
     margin-right: 10px;
 }
 
-.mainFooter {}
 
 hr {
     height: 6px;
