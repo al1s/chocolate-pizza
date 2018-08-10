@@ -10,6 +10,10 @@ body {
   justify-content: space-between;
 }
 
+.header__separator {
+  margin-top: 3em;
+}
+
 .logo {
   background-image: url("../img/logo.png");
   background-repeat: no-repeat;
@@ -85,7 +89,7 @@ body {
 }
 
 .main {
-  margin-top: 7em;
+  margin-top: 3.6em;
 }
 
 .main__header {
@@ -160,11 +164,11 @@ html {
 }
 
 .mainList ul {
-    list-style-type: none;
-    width: 300px;
-    padding: 0px;
-    margin: 0;
-    float: left;
+  list-style-type: none;
+  width: 300px;
+  padding: 0px;
+  margin: 0;
+  float: left;
 }
 
 span {
@@ -174,55 +178,54 @@ span {
 }
 
 .mainPersonDisplay {
-    margin-top: 15px;
-    padding-top: 12px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-bottom: 10px;
+  margin-top: 15px;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 button {
-    background-color: #bc7058;
-    width: 150px;
-    height: 40px;
-    color: white;
-    font-size: 12px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    border-color: #bc7058;
+  background-color: #bc7058;
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size: 12px;
+  font-family: "Open Sans Condensed", sans-serif;
+  border-color: #bc7058;
 }
 
 .mainPersonDisplay p {
-    text-indent: 0px;
-    margin: 0px;
+  text-indent: 0px;
+  margin: 0px;
 }
 
 .mainPersonDisplay img {
-    float: left;
-    margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }
 
-
 hr {
-    height: 6px;
-    background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-    border: 0;
-    margin-bottom: 20px;
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0
+    0;
+  border: 0;
+  margin-bottom: 20px;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 footer img {
-    width: 31px;
-    height: 33px;
-    margin: 15px auto;
+  width: 31px;
+  height: 33px;
+  margin: 15px auto;
 }
 
 footer h6 {
-    margin: 0px auto;
+  margin: 0px auto;
 }
-
